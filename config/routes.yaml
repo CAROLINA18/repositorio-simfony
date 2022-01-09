@@ -1,0 +1,20 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+create:
+  path: /create-category
+  controller: App\Controller\CategorysController::createCategory
+
+index:
+  path: /
+  controller: App\Controller\CategorysController::index
+
+view:
+  path: /edit-category/{id}
+  controller: App\Controller\CategorysController::viewCategory
+
+delete:
+  path: /delete-category/{id}
+  controller: App\Controller\CategorysController::deleteCategory
+

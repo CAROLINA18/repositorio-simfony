@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Editar Categoria{% endblock %}
+
+{% block body %}
+
+{% block form_row %}
+   
+    <div class="form-group">
+        {{ form_label(form) }}
+        {{ form_errors(form) }}
+        {{ form_widget(form) }}
+    </div>
+
+{% endblock form_row %}
+
+</div>
+{% endblock %}
